@@ -14,16 +14,19 @@ if(m_stopping&&(-10< m_velocityX && m_velocityX<10)){
 	m_velocityX = 0;
 }
 
-x+=m_velocityX;
-
+//
 if(keyboard_check(vk_space)){
  y-=64;	
 }
-if(place_meeting(x,y,m_tilemap)){
+if(tilemap_get_at_pixel(m_tilemap,x,y+1280)){
 	m_velocityY = 0;
 	show_debug_message("cum")
 }
 else{
 	m_velocityY -= g_gravity;
 }
-y-= m_velocityY;
+
+x += m_velocityX;
+y -= m_velocityY;
+
+
