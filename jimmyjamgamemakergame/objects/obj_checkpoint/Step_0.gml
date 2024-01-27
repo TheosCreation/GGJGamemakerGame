@@ -3,6 +3,7 @@
 
 
 if(place_meeting(x,y,obj_player)){
-	global.checkpoint = x;
+	global.checkpointX = x;
+	global.checkpointY = y;
 	instance_destroy();
 }

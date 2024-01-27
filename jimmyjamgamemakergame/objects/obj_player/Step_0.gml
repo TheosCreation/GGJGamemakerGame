@@ -1,12 +1,16 @@
 if(!global.GamePause){
 	
 
-if (mouse_check_button(mb_left) && m_canshoot) {
+if (mouse_check_button(mb_left) && m_canshoot&&global.Darts) {
 	m_canshoot = false;
 	instance_create_layer(x, y+1000, "Objects", obj_Dart);
 	alarm[0] = m_shootdelay;
 }
 
+if(global.Baloon){
+	g_gravity = 4.4;
+	
+}
 
 if(keyboard_check(ord("D"))&&m_velocityX < m_terminalVelX){
 	m_velocityX+=m_moveSpeed;
