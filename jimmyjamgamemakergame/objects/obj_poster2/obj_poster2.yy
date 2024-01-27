@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_poster2",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_poster2",
+    "path": "sprites/spr_poster2/spr_poster2.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
