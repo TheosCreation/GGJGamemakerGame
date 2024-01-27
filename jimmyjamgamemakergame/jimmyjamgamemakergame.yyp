@@ -13,6 +13,7 @@
     {"id":{"name":"spr_tetxbox","path":"sprites/spr_tetxbox/spr_tetxbox.yy",},"order":6,},
     {"id":{"name":"obj_Dart","path":"objects/obj_Dart/obj_Dart.yy",},"order":5,},
     {"id":{"name":"obj_GameControler","path":"objects/obj_GameControler/obj_GameControler.yy",},"order":1,},
+    {"id":{"name":"snd_ClownHorn","path":"sounds/snd_ClownHorn/snd_ClownHorn.yy",},"order":1,},
     {"id":{"name":"obj_Baloon","path":"objects/obj_Baloon/obj_Baloon.yy",},"order":4,},
     {"id":{"name":"snd_Wind","path":"sounds/snd_Wind/snd_Wind.yy",},"order":0,},
     {"id":{"name":"Tile","path":"sprites/Tile/Tile.yy",},"order":0,},
