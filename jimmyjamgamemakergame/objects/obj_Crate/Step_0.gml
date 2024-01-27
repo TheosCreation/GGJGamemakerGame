@@ -1,5 +1,5 @@
 
-if(instance_nearest(x,y, obj_Baloon).m_pop = true) {
+if(m_myBaloon.m_pop = true) {
 	//crate gravity activate
 	m_gravity = 9.81;
 }
