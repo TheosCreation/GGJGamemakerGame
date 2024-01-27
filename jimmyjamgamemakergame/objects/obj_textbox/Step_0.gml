@@ -1,5 +1,5 @@
 show_debug_message(charCount)
 if(charCount < 2) {
-	alarm[0] = string_length(Dialog[page]);
+	alarm[0] = string_length(Dialog[page]) + 10;
 	audio_play_sound(snd_VoiceJoke,100,true);
 }
