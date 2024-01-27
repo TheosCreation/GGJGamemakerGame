@@ -14,7 +14,7 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_Wind.mp3",
+  "soundFile": "snd_Wind",
   "duration": 0.0,
   "parent": {
     "name": "Sounds",
