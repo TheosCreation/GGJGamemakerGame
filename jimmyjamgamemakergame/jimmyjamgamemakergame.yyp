@@ -44,6 +44,7 @@
     {"id":{"name":"spr_uncleClown","path":"sprites/spr_uncleClown/spr_uncleClown.yy",},"order":2,},
     {"id":{"name":"obj_uncleClown","path":"objects/obj_uncleClown/obj_uncleClown.yy",},"order":1,},
     {"id":{"name":"obj_Crate","path":"objects/obj_Crate/obj_Crate.yy",},"order":3,},
+    {"id":{"name":"snd_Voice2","path":"sounds/snd_Voice2/snd_Voice2.yy",},"order":7,},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
