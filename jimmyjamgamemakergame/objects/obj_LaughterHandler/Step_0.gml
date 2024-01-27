@@ -9,3 +9,15 @@ if(m_GameStart&&!m_started){
 	m_CurrentTooth = 0;
 	alarm[0] = m_LineSpeed;
 }
+
+if(m_GameStart){
+	if(keyboard_check_pressed(vk_space)){
+		if(m_TeethList[m_CurrentTooth] = spr_teethNormal){
+			show_debug_message("ANGY");
+		}
+		else{
+			show_debug_message("YIPEE");
+		}
+	
+	}
+}
