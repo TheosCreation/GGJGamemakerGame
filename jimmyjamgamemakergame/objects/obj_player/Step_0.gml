@@ -1,3 +1,9 @@
+if (mouse_check_button(mb_left)) {
+	instance_create_layer(x, y, "Objects", obj_Dart);
+	
+}
+
+
 if(keyboard_check(ord("D"))&&m_velocityX < m_terminalVelX){
 	m_velocityX+=m_moveSpeed;
 	
@@ -64,5 +70,3 @@ else{
 //updates pos based on vel
 x += m_velocityX;
 y -= m_velocityY;
-
-
