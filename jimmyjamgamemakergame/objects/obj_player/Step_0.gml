@@ -38,7 +38,8 @@ else if(tilemap_get_at_pixel(m_tilemap,x-c_width+m_velocityX,y+c_height-320)||ti
 	m_velocityX = 0;
 }
 else if(place_meeting(x+m_velocityX,y-160,obj_Crate)
-		||place_meeting(x+m_velocityX,y-160,obj_MovingPlataform)){
+		||place_meeting(x+m_velocityX,y-160,obj_MovingPlataform)
+		||place_meeting(x+m_velocityX,y-160,obj_VerticalPlataform)){
 	m_velocityX = 0;
 }
 else if(m_stopping&&(-10< m_velocityX && m_velocityX<10)){
@@ -49,8 +50,14 @@ else if(m_stopping&&(-10< m_velocityX && m_velocityX<10)){
 if(place_meeting(x,y,obj_MovingPlataform)){
 		speed = instance_nearest(x,y,obj_MovingPlataform).speed;
 	}
-	else{
+else{
 		speed = 0;
+	}
+if(place_meeting(x,y,obj_VerticalPlataform)){
+		 vspeed = instance_nearest(x,y,obj_VerticalPlataform).vspeed;
+	}
+else{
+		vspeed = 0;
 	}
 
 if(keyboard_check_pressed(vk_space)&&m_groundCheck){
@@ -67,7 +74,8 @@ else if(tilemap_get_at_pixel(m_tilemap,x+c_width/2,y+c_height-m_velocityY)||tile
 	//checks if player is on the ground and sets velocity accordingly, changes y pos so its smoothy
 	
 }
-else if(place_meeting(x,y,obj_Crate)||place_meeting(x,y,obj_MovingPlataform)){
+else if(place_meeting(x,y,obj_Crate)||place_meeting(x,y,obj_MovingPlataform)
+||place_meeting(x,y,obj_VerticalPlataform)){
 	m_velocityY = 0;
 	m_groundCheck = true;
 	
