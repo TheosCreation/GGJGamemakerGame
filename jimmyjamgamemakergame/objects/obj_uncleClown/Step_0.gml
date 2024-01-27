@@ -25,7 +25,7 @@ if(place_meeting(x,y,obj_player)){
 			myTextbox = noone;
 			m_gameStage ++;
 			if(m_gameStage == 1){
-				myLaughterHandler = instance_create_layer(x,y,"Objects",obj_LaughterHandler);
+				myMiniGame = instance_create_layer(x,y,"Objects",obj_LaughterHandler);
 			}
 		}
 	}
