@@ -30,7 +30,7 @@ else if(tilemap_get_at_pixel(m_tilemap,x-c_width+m_velocityX,y+c_height-320)||ti
 	x = ((tX+1)*640)+c_width;
 	m_velocityX = 0;
 }
-else if(place_meeting(x+m_velocityX,y,obj_Crate)){
+else if(place_meeting(x+m_velocityX,y-160,obj_Crate)){
 	m_velocityX = 0;
 }
 else if(m_stopping&&(-10< m_velocityX && m_velocityX<10)){
