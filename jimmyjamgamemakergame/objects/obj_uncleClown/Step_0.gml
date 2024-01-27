@@ -15,6 +15,8 @@ if(place_meeting(x,y,obj_player)){
 		if(obj_textbox.charCount < string_length(obj_textbox.Dialog[obj_textbox.page])) {
 			obj_textbox.charCount = string_length(obj_textbox.Dialog[obj_textbox.page]);
 			audio_stop_sound(snd_VoiceJoke);
+			audio_stop_sound(snd_Voice);
+			audio_stop_sound(snd_Voice2);
 		}
 		else if(obj_textbox.page+1 < array_length(obj_textbox.Dialog)) {
 			obj_textbox.page += 1;
