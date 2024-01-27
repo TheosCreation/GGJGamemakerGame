@@ -11,7 +11,7 @@ if(global.Baloon){
 	g_gravity = 4.4;
 	
 }
-global.Baloon = true;
+
 if(keyboard_check(ord("D"))&&m_velocityX < m_terminalVelX){
 	m_velocityX+=m_moveSpeed;
 	
@@ -39,7 +39,8 @@ else if(tilemap_get_at_pixel(m_tilemap,x-c_width+m_velocityX,y+c_height-320)||ti
 }
 else if(place_meeting(x+m_velocityX,y-160,obj_Crate)
 		||place_meeting(x+m_velocityX,y-160,obj_MovingPlataform)
-		||place_meeting(x+m_velocityX,y-160,obj_VerticalPlataform)){
+		||place_meeting(x+m_velocityX,y-160,obj_VerticalPlataform)
+		||place_meeting(x+m_velocityX,y-160,obj_floor)){
 	m_velocityX = 0;
 }
 else if(m_stopping&&(-10< m_velocityX && m_velocityX<10)){
@@ -74,8 +75,10 @@ else if(tilemap_get_at_pixel(m_tilemap,x+c_width/2,y+c_height-m_velocityY)||tile
 	//checks if player is on the ground and sets velocity accordingly, changes y pos so its smoothy
 	
 }
-else if(place_meeting(x,y,obj_Crate)||place_meeting(x,y,obj_MovingPlataform)
-||place_meeting(x,y,obj_VerticalPlataform)){
+else if(place_meeting(x,y,obj_Crate)
+||place_meeting(x,y,obj_MovingPlataform)
+||place_meeting(x,y,obj_VerticalPlataform)
+||place_meeting(x,y,obj_floor)){
 	m_velocityY = 0;
 	m_groundCheck = true;
 	
