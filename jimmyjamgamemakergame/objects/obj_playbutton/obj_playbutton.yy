@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object11",
-  "spriteId": null,
+  "name": "obj_playbutton",
+  "spriteId": {
+    "name": "spr_buttonPlay",
+    "path": "sprites/spr_buttonPlay/spr_buttonPlay.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -21,7 +24,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
