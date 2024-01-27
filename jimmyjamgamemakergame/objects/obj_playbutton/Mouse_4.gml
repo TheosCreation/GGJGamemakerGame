@@ -1,2 +1,2 @@
 
-room_goto(Room1)
+room_goto(Game)
