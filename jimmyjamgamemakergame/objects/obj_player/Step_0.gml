@@ -19,7 +19,7 @@ if(m_stopping&&(-10< m_velocityX && m_velocityX<10)){
 
 
 if(keyboard_check_pressed(vk_space)&&m_groundCheck){
-	m_velocityY += 256;
+	m_velocityY += m_jumpSpeed;
 	//input check
  
 } 
@@ -43,7 +43,9 @@ else if(tilemap_get_at_pixel(m_tilemap,x,y-c_height/2+m_velocityY) && m_hitHead 
 }
 else{
 	m_groundCheck = false;
-	m_velocityY -= g_gravity;
+	if(m_velocityY>-m_terminalVelY){
+		m_velocityY -= g_gravity;
+	}
 	//gravity and checks if not on ground
 }
 
