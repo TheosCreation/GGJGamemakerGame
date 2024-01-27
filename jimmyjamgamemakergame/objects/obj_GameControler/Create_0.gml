@@ -6,3 +6,5 @@ global.Darts = false;
 global.CottonCandy = false;
 
 global.GamePause = false;
+
+global.checkpoint = 0;
