@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_ClownHorn.mp3",
-  "duration": 2.873469,
+  "duration": 0.470204,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
