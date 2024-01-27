@@ -4,7 +4,6 @@ if(m_CurrentTooth== m_MouthSize-1){
 	m_GameStart = false;
 	m_started = false;
 	global.GamePause = false;
-
 }
 else{
 m_CurrentTooth++;

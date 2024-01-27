@@ -5,6 +5,12 @@
 
 if(place_meeting(x,y,obj_player)){
 	if(keyboard_check_pressed(ord("E"))) {
+		if(myTextbox == noone && m_gameStage == 0) {
+			global.GamePause = true;
+			myTextbox = instance_create_layer(mouse_x,mouse_y,"ui",obj_textbox)
+			myTextbox.Dialog = m_ClownText;
+			myTextbox.ClownName = m_ClownName;
+		}else
 	if(instance_exists(obj_textbox)) {
 		if(obj_textbox.charCount < string_length(obj_textbox.Dialog[obj_textbox.page])) {
 			obj_textbox.charCount = string_length(obj_textbox.Dialog[obj_textbox.page]);
@@ -14,22 +20,13 @@ if(place_meeting(x,y,obj_player)){
 			obj_textbox.charCount = 0;
 		} else {
 			instance_destroy(obj_textbox);
-				global.GamePause = false;
+			global.GamePause = false;
+			myTextbox = noone;
+			m_gameStage ++;
+			if(m_gameStage == 1){
+				myLaughterHandler = instance_create_layer(x,y,"Objects",obj_LaughterHandler);
+			}
 		}
 	}
 }
-	if(keyboard_check_pressed(ord("E"))){
-		
-		if(myTextbox == noone) {
-			global.GamePause = true;
-			myTextbox = instance_create_layer(mouse_x,mouse_y,"ui",obj_textbox)
-			myTextbox.Dialog = m_ClownText;
-			myTextbox.ClownName = m_ClownName;
-		}
-	}
-}
-else {
-	global.GamePause = false;
-	instance_destroy(myTextbox);
-	myTextbox = noone;
 }
