@@ -8,6 +8,7 @@
     {"id":{"name":"snd_ClownMusic","path":"sounds/snd_ClownMusic/snd_ClownMusic.yy",},"order":4,},
     {"id":{"name":"spr_baloon","path":"sprites/spr_baloon/spr_baloon.yy",},"order":4,},
     {"id":{"name":"spr_Interactionzone","path":"sprites/spr_Interactionzone/spr_Interactionzone.yy",},"order":11,},
+    {"id":{"name":"snd_VoiceJoke","path":"sounds/snd_VoiceJoke/snd_VoiceJoke.yy",},"order":6,},
     {"id":{"name":"spr_teethGolden","path":"sprites/spr_teethGolden/spr_teethGolden.yy",},"order":8,},
     {"id":{"name":"spr_scrollBar","path":"sprites/spr_scrollBar/spr_scrollBar.yy",},"order":9,},
     {"id":{"name":"spr_teethNormal","path":"sprites/spr_teethNormal/spr_teethNormal.yy",},"order":7,},
