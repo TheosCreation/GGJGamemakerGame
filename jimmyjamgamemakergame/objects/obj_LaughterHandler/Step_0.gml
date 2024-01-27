@@ -13,15 +13,16 @@ if(m_GameStart&&!m_started){
 if(m_GameStart){
 	if(keyboard_check_pressed(vk_space)&&m_CurrentTooth<=m_MouthSize){
 		if(m_TeethList[m_CurrentTooth] = spr_teethNormal){
-			m_CurrentTooth = 14;
+			m_CurrentTooth = m_MouthSize-1;
 			m_GameStart = false;
 			m_started = false;
 			global.GamePause = false;
-			obj_player.x = global.checkpoint;
+			die();
 			instance_destroy();
 		}
 		else{
-			show_debug_message("YIPEE");
+			m_gold = false;
+			
 		}
 	
 	}

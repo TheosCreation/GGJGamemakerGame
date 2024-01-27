@@ -24,7 +24,7 @@ if(place_meeting(x,y,obj_player)){
 			global.GamePause = false;
 			myTextbox = noone;
 			m_gameStage ++;
-			if(m_gameStage == 1){
+			if(m_gameStage > 0){
 				myLaughterHandler = instance_create_layer(x,y,"Objects",obj_LaughterHandler);
 			}
 		}
