@@ -1,3 +1,4 @@
+randomize();
 m_MouthSize = 15;
 m_TeethList = array_create(m_MouthSize,spr_teethNormal);
 m_GameStart = false;
