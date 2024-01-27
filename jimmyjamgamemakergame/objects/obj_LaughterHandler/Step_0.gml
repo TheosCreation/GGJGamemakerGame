@@ -1,4 +1,4 @@
-if(place_meeting(x,y,obj_player)){
+if((abs(x - obj_player.x) < 500) && (abs(x - obj_player.x) < 500)){
 	if(keyboard_check_pressed(ord("E"))){
 		m_GameStart = true;
 		global.GamePause = true;
@@ -18,6 +18,7 @@ if(m_GameStart){
 			m_started = false;
 			global.GamePause = false;
 			obj_player.x = global.checkpoint;
+			instance_destroy();
 		}
 		else{
 			show_debug_message("YIPEE");
