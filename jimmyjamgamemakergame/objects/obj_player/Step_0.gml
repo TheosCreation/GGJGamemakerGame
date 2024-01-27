@@ -12,9 +12,21 @@ m_velocityX -= sign(m_velocityX)*m_moveSpeed;
 m_stopping = true;
 
 }
-if(m_stopping&&(-10< m_velocityX && m_velocityX<10)){
+if(tilemap_get_at_pixel(m_tilemap,x+c_width+m_velocityX,y+c_height/2)){
+	
+	var tX = tilemap_get_cell_x_at_pixel(m_tilemap,x+c_width+m_velocityX,y+c_height/2);
+	x = (tX*640)-c_width;
+	m_velocityX = 0;
+}
+else if(tilemap_get_at_pixel(m_tilemap,x-c_width+m_velocityX,y+c_height/2)){
+	var tX = tilemap_get_cell_x_at_pixel(m_tilemap,x-c_width+m_velocityX,y+c_height/2);
+	x = ((tX+1)*640)+c_width;
+	m_velocityX = 0;
+}
+else if(m_stopping&&(-10< m_velocityX && m_velocityX<10)){
 	m_velocityX = 0;
 	//checks if velocity is in range -10 to 10 to fully 0 it
+	
 }
 
 
