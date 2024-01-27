@@ -20,6 +20,7 @@
     {"id":{"name":"obj_playbutton","path":"objects/obj_playbutton/obj_playbutton.yy",},"order":0,},
     {"id":{"name":"snd_Wind","path":"sounds/snd_Wind/snd_Wind.yy",},"order":0,},
     {"id":{"name":"Tile","path":"sprites/Tile/Tile.yy",},"order":0,},
+    {"id":{"name":"obj_MovingPlataform","path":"objects/obj_MovingPlataform/obj_MovingPlataform.yy",},"order":11,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
     {"id":{"name":"obj_LaughterHandler","path":"objects/obj_LaughterHandler/obj_LaughterHandler.yy",},"order":7,},
     {"id":{"name":"spr_buttonPlay","path":"sprites/spr_buttonPlay/spr_buttonPlay.yy",},"order":12,},
