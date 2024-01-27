@@ -38,7 +38,7 @@ else if(m_stopping&&(-10< m_velocityX && m_velocityX<10)){
 	//checks if velocity is in range -10 to 10 to fully 0 it
 	
 }
-show_debug_message(y);
+
 
 if(keyboard_check_pressed(vk_space)&&m_groundCheck){
 	m_velocityY += m_jumpSpeed;
