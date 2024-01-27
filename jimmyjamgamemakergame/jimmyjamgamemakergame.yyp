@@ -13,6 +13,7 @@
     {"id":{"name":"obj_Baloon","path":"objects/obj_Baloon/obj_Baloon.yy",},"order":4,},
     {"id":{"name":"Tile","path":"sprites/Tile/Tile.yy",},"order":0,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
+    {"id":{"name":"fnt_textboxtext","path":"fonts/fnt_textboxtext/fnt_textboxtext.yy",},"order":0,},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"order":6,},
     {"id":{"name":"MainSet","path":"tilesets/MainSet/MainSet.yy",},"order":0,},
     {"id":{"name":"spr_uncleClown","path":"sprites/spr_uncleClown/spr_uncleClown.yy",},"order":2,},

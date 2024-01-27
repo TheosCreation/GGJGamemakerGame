@@ -3,7 +3,19 @@ if (mouse_check_button(mb_left) && m_canshoot) {
 	instance_create_layer(x, y+1000, "Objects", obj_Dart);
 	alarm[0] = m_shootdelay;
 }
-
+if(keyboard_check_pressed(ord("E"))) {
+	if(instance_exists(obj_textbox)) {
+		if(obj_textbox.charCount < string_length(obj_textbox.Dialog[obj_textbox.page])) {
+			obj_textbox.charCount = string_length(obj_textbox.Dialog[obj_textbox.page]);
+		}
+		else if(obj_textbox.page+1 < array_length(obj_textbox.Dialog)) {
+			obj_textbox.page += 1;
+			obj_textbox.charCount = 0;
+		} else {
+			instance_destroy(obj_textbox);
+		}
+	}
+}
 
 if(keyboard_check(ord("D"))&&m_velocityX < m_terminalVelX){
 	m_velocityX+=m_moveSpeed;
