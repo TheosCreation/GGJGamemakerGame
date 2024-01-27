@@ -17,6 +17,7 @@ if(m_GameStart){
 			m_GameStart = false;
 			m_started = false;
 			global.GamePause = false;
+			obj_uncleClown.m_gameStage = 0;
 			die();
 			instance_destroy();
 		}
