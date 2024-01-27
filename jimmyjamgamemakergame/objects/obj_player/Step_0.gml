@@ -1,6 +1,7 @@
-if (mouse_check_button(mb_left)) {
-	instance_create_layer(x, y, "Objects", obj_Dart);
-	
+if (mouse_check_button(mb_left) && m_canshoot) {
+	m_canshoot = false;
+	instance_create_layer(x, y+1000, "Objects", obj_Dart);
+	alarm[0] = m_shootdelay;
 }
 
 

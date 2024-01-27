@@ -11,6 +11,8 @@ m_tilemap = layer_tilemap_get_id(m_layerID);
 m_hitHead = false;
 m_groundCheck = true;
 m_jumpSpeed = 128;
+m_canshoot = true;
+m_shootdelay = 30;
 g_gravity = 9.81;
 
 c_width = 240;
