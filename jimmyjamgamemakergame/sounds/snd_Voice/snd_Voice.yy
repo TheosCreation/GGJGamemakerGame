@@ -4,7 +4,7 @@
   "name": "snd_Voice",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.35,
+  "volume": 0.4,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_Voice.mp3",
-  "duration": 3.03025,
+  "duration": 7.497187,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
