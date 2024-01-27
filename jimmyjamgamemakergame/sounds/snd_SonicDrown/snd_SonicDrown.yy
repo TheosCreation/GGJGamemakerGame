@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_SonicDrown",
-  "duration": 0.0,
+  "soundFile": "snd_SonicDrown.mp3",
+  "duration": 60.995937,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
