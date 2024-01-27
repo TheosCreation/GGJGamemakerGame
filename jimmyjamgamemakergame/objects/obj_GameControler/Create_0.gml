@@ -4,3 +4,5 @@
 global.Baloon = false;
 global.Darts = false;
 global.CottonCandy = false;
+
+global.GamePause = false;
