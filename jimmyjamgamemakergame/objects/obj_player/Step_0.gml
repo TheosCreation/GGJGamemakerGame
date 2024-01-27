@@ -10,8 +10,9 @@ if (mouse_check_button(mb_left) && m_canshoot&&global.Darts) {
 if(global.Baloon){
 	if(keyboard_check(vk_space)){
 		g_gravity = 2.2;
-	}else{
-	g_gravity = 9.81;
+	}
+	else{
+		g_gravity = 9.81;
 	}
 	
 	
