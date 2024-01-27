@@ -8,16 +8,23 @@ if (mouse_check_button(mb_left) && m_canshoot&&global.Darts) {
 }
 
 if(global.Baloon){
-	g_gravity = 4.4;
+	if(keyboard_check(vk_space)){
+		g_gravity = 2.2;
+	}else{
+	g_gravity = 9.81;
+	}
+	
 	
 }
 
 if(keyboard_check(ord("D"))&&m_velocityX < m_terminalVelX){
+	image_xscale = 1;
 	m_velocityX+=m_moveSpeed;
 	
 	m_stopping= false;
 }
 else if(keyboard_check(ord("A"))&&m_velocityX > -m_terminalVelX){
+	image_xscale = -1;
 	m_velocityX-=m_moveSpeed;
 	m_stopping = false
 }
