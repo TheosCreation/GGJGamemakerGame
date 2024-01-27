@@ -11,7 +11,7 @@ if(global.Baloon){
 	g_gravity = 4.4;
 	
 }
-
+global.Baloon = true;
 if(keyboard_check(ord("D"))&&m_velocityX < m_terminalVelX){
 	m_velocityX+=m_moveSpeed;
 	
