@@ -18,13 +18,13 @@ m_velocityX -= sign(m_velocityX)*m_moveSpeed;
 m_stopping = true;
 
 }
-if(tilemap_get_at_pixel(m_tilemap,x+c_width+m_velocityX,y+c_height/2)){
+if(tilemap_get_at_pixel(m_tilemap,x+c_width+m_velocityX,y+c_height-320)||tilemap_get_at_pixel(m_tilemap,x+c_width+m_velocityX,y+320)){
 	
 	var tX = tilemap_get_cell_x_at_pixel(m_tilemap,x+c_width+m_velocityX,y+c_height/2);
 	x = (tX*640)-c_width;
 	m_velocityX = 0;
 }
-else if(tilemap_get_at_pixel(m_tilemap,x-c_width+m_velocityX,y+c_height/2)){
+else if(tilemap_get_at_pixel(m_tilemap,x-c_width+m_velocityX,y+c_height-320)||tilemap_get_at_pixel(m_tilemap,x-c_width+m_velocityX,y+320)){
 	var tX = tilemap_get_cell_x_at_pixel(m_tilemap,x-c_width+m_velocityX,y+c_height/2);
 	x = ((tX+1)*640)+c_width;
 	m_velocityX = 0;
@@ -41,7 +41,7 @@ if(keyboard_check_pressed(vk_space)&&m_groundCheck){
 	//input check
  
 } 
-else if(tilemap_get_at_pixel(m_tilemap,x+c_width,y+c_height-m_velocityY)||tilemap_get_at_pixel(m_tilemap,x-c_width,y+c_height-m_velocityY)){
+else if(tilemap_get_at_pixel(m_tilemap,x+c_width/2,y+c_height-m_velocityY)||tilemap_get_at_pixel(m_tilemap,x-c_width/2,y+c_height-m_velocityY)){
 	var tY = tilemap_get_cell_y_at_pixel(m_tilemap,x,y+c_height-m_velocityY);
 	y = (tY*640)-c_height;
 	m_velocityY = 0;
