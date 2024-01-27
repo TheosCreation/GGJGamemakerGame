@@ -1,2 +1,2 @@
 
-room_goto(Intro)
+room_goto(Room1)

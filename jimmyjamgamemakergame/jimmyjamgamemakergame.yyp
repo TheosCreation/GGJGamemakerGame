@@ -21,6 +21,7 @@
     {"id":{"name":"obj_playbutton","path":"objects/obj_playbutton/obj_playbutton.yy",},"order":0,},
     {"id":{"name":"snd_Wind","path":"sounds/snd_Wind/snd_Wind.yy",},"order":0,},
     {"id":{"name":"Tile","path":"sprites/Tile/Tile.yy",},"order":0,},
+    {"id":{"name":"obj_MovingPlataform","path":"objects/obj_MovingPlataform/obj_MovingPlataform.yy",},"order":11,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
     {"id":{"name":"obj_LaughterHandler","path":"objects/obj_LaughterHandler/obj_LaughterHandler.yy",},"order":7,},
     {"id":{"name":"spr_buttonPlay","path":"sprites/spr_buttonPlay/spr_buttonPlay.yy",},"order":12,},
@@ -55,8 +56,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
