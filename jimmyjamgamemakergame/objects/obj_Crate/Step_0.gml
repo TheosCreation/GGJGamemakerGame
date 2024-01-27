@@ -1,4 +1,4 @@
-show_debug_message(instance_nearest(x,y, obj_Baloon).m_pop )
+
 if(instance_nearest(x,y, obj_Baloon).m_pop = true) {
 	//crate gravity activate
 	m_gravity = 9.81;
