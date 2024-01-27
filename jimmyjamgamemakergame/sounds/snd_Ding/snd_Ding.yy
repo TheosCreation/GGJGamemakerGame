@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_ClownMusic",
+  "name": "snd_Ding",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -14,10 +14,10 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_ClownMusic.mp3",
-  "duration": 127.86944,
+  "soundFile": "snd_Ding.mp3",
+  "duration": 1.128,
   "parent": {
-    "name": "Music",
-    "path": "folders/Sounds/Music.yy",
+    "name": "Sound Effects",
+    "path": "folders/Sounds/Sound Effects.yy",
   },
 }

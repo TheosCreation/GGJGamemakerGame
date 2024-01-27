@@ -17,7 +17,7 @@
   "soundFile": "snd_VoiceJoke.mp3",
   "duration": 7.497187,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Voices",
+    "path": "folders/Sounds/Voices.yy",
   },
 }

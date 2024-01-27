@@ -17,7 +17,7 @@
   "soundFile": "snd_ClownHorn.mp3",
   "duration": 0.470204,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Sound Effects",
+    "path": "folders/Sounds/Sound Effects.yy",
   },
 }
