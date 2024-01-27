@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_MovingPlataform",
   "spriteId": {
-    "name": "spr_movingPlat",
-    "path": "sprites/spr_movingPlat/spr_movingPlat.yy",
+    "name": "spr_crate",
+    "path": "sprites/spr_crate/spr_crate.yy",
   },
   "solid": false,
   "visible": true,

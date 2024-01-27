@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_Crate",
-  "spriteId": {
-    "name": "spr_crate",
-    "path": "sprites/spr_crate/spr_crate.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
