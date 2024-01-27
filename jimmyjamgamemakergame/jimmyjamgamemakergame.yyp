@@ -37,6 +37,8 @@
     {"id":{"name":"obj_soundManager","path":"objects/obj_soundManager/obj_soundManager.yy",},"order":8,},
     {"id":{"name":"obj_deathBlock","path":"objects/obj_deathBlock/obj_deathBlock.yy",},"order":12,},
     {"id":{"name":"spr_deathBlock","path":"sprites/spr_deathBlock/spr_deathBlock.yy",},"order":14,},
+    {"id":{"name":"obj_rizzClown","path":"objects/obj_rizzClown/obj_rizzClown.yy",},"order":8,},
+    {"id":{"name":"die","path":"scripts/die/die.yy",},"order":0,},
     {"id":{"name":"spr_verticalPlat","path":"sprites/spr_verticalPlat/spr_verticalPlat.yy",},"order":15,},
     {"id":{"name":"spr_checkPoint","path":"sprites/spr_checkPoint/spr_checkPoint.yy",},"order":10,},
     {"id":{"name":"MainSet","path":"tilesets/MainSet/MainSet.yy",},"order":0,},
