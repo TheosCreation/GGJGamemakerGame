@@ -17,7 +17,7 @@
   "soundFile": "snd_IntenseMusic.mp3",
   "duration": 60.995937,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Music",
+    "path": "folders/Sounds/Music.yy",
   },
 }

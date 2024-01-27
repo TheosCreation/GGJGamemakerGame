@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oobbjj_tent",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_tent",
+    "path": "sprites/spr_tent/spr_tent.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

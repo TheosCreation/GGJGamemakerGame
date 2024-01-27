@@ -17,7 +17,7 @@
   "soundFile": "snd_Wind.mp3",
   "duration": 291.13467,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Sound Effects",
+    "path": "folders/Sounds/Sound Effects.yy",
   },
 }

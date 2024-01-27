@@ -17,7 +17,7 @@
   "soundFile": "snd_ClownMusic.mp3",
   "duration": 127.86944,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Music",
+    "path": "folders/Sounds/Music.yy",
   },
 }

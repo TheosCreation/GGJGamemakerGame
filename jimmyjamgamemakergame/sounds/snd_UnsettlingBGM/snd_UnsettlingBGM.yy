@@ -17,7 +17,7 @@
   "soundFile": "snd_UnsettlingBGM.mp3",
   "duration": 68.41475,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Music",
+    "path": "folders/Sounds/Music.yy",
   },
 }
