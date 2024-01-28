@@ -5,10 +5,13 @@ if(m_win){
 	//m_win = false;
 }
 
-
-
 if(place_meeting(x,y,obj_player)){
 	if(keyboard_check_pressed(ord("E"))) {
+		if(sound_playing == false){
+			audio_play_sound(snd_ClownTheme2, 100, true)
+			sound_playing = true
+			alarm[0] = 1000;
+		}
 		if(myTextbox == noone && m_gameStage == 0) {
 			global.GamePause = true;
 			myTextbox = instance_create_layer(mouse_x,mouse_y,"ui",obj_textbox)

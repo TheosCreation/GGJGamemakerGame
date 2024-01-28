@@ -14,6 +14,7 @@ m_ClownText[8] = "Ever wake in the night, thinking you heard the distant honk of
 */
 
 	m_win = false;				
-					
+			
+sound_playing = false;
 					
 m_gameStage = 0;
