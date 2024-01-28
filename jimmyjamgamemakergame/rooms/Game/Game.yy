@@ -145,6 +145,7 @@
     {"name":"inst_3BBD96A","path":"rooms/Game/Game.yy",},
     {"name":"inst_470196C1","path":"rooms/Game/Game.yy",},
     {"name":"inst_60CA4B69","path":"rooms/Game/Game.yy",},
+    {"name":"inst_51F7D2D6","path":"rooms/Game/Game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

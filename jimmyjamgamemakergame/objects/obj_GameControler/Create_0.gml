@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 global.Baloon = false;
-global.Darts = false;
+global.Darts = true;
 global.CottonCandy = false;
 window_set_size(1366,768);
 surface_resize(application_surface, 1366, 768);

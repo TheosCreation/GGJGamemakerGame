@@ -94,7 +94,6 @@
     {"id":{"name":"spr_deathBlock","path":"sprites/spr_deathBlock/spr_deathBlock.yy",},"order":15,},
     {"id":{"name":"spr_blackteeth","path":"sprites/spr_blackteeth/spr_blackteeth.yy",},"order":44,},
     {"id":{"name":"die","path":"scripts/die/die.yy",},"order":0,},
-    {"id":{"name":"crunckle_anim","path":"sprites/crunckle_anim/crunckle_anim.yy",},"order":46,},
     {"id":{"name":"snd_Footsteps10","path":"sounds/snd_Footsteps10/snd_Footsteps10.yy",},"order":9,},
     {"id":{"name":"snd_Footsteps3","path":"sounds/snd_Footsteps3/snd_Footsteps3.yy",},"order":2,},
     {"id":{"name":"laugh5","path":"sounds/laugh5/laugh5.yy",},"order":6,},
