@@ -22,7 +22,7 @@ if(m_GameStart){
 			m_gold = false;
 			m_goldCount = 0;
 			m_CurrentTooth = 0;
-			instance_nearest(x,y,obj_uncleClown).m_gameStage = 0;
+			m_parent.m_gameStage = 0;
 			instance_destroy();
 			die();
 			
