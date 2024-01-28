@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_uncleClown",
   "spriteId": {
-    "name": "spr_uncleClown",
-    "path": "sprites/spr_uncleClown/spr_uncleClown.yy",
+    "name": "crunckle_anim",
+    "path": "sprites/crunckle_anim/crunckle_anim.yy",
   },
   "solid": false,
   "visible": true,

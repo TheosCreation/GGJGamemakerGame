@@ -73,6 +73,7 @@
     {"id":{"name":"spr_stand1","path":"sprites/spr_stand1/spr_stand1.yy",},"order":23,},
     {"id":{"name":"snd_ClownTheme3","path":"sounds/snd_ClownTheme3/snd_ClownTheme3.yy",},"order":3,},
     {"id":{"name":"snd_Laugh5","path":"sounds/snd_Laugh5/snd_Laugh5.yy",},"order":4,},
+    {"id":{"name":"crunckle_anim","path":"sprites/crunckle_anim/crunckle_anim.yy",},"order":46,},
     {"id":{"name":"snd_DeathSound","path":"sounds/snd_DeathSound/snd_DeathSound.yy",},"order":12,},
     {"id":{"name":"snd_ClownTheme1","path":"sounds/snd_ClownTheme1/snd_ClownTheme1.yy",},"order":2,},
     {"id":{"name":"obj_quitbutton","path":"objects/obj_quitbutton/obj_quitbutton.yy",},"order":1,},
@@ -138,9 +139,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Game2","path":"rooms/Game2/Game2.yy",},},
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"Game","path":"rooms/Game/Game.yy",},},
+    {"roomId":{"name":"Game2","path":"rooms/Game2/Game2.yy",},},
     {"roomId":{"name":"Game3","path":"rooms/Game3/Game3.yy",},},
   ],
   "Folders": [
