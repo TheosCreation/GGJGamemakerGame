@@ -15,10 +15,10 @@ m_groundCheck = true;
 m_jumpSpeed = 128;
 m_canshoot = true;
 m_shootdelay = 30;
-g_gravity = 12;
+g_gravity = 10;
 
 c_width = 240;
-c_height = 1280;
+c_height = 1230;
 
 
 m_footStepArray = [snd_Footsteps10,	snd_Footsteps3, snd_Footsteps6, snd_Footsteps8]

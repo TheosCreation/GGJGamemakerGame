@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "jimmyjamgamemakergame",
   "resources": [
+    {"id":{"name":"spr_newTilset","path":"sprites/spr_newTilset/spr_newTilset.yy",},"order":42,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},"order":31,},
     {"id":{"name":"snd_ClownMusic","path":"sounds/snd_ClownMusic/snd_ClownMusic.yy",},"order":4,},

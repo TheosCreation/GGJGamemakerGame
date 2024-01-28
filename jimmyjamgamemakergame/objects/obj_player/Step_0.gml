@@ -13,7 +13,7 @@ if(global.Baloon){
 		g_gravity =4;
 	}
 	else{
-		g_gravity = 12;
+		g_gravity = 10;
 	}
 	
 	
