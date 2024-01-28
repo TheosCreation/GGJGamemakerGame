@@ -41,6 +41,7 @@
     {"id":{"name":"obj_GameControler","path":"objects/obj_GameControler/obj_GameControler.yy",},"order":1,},
     {"id":{"name":"obj_stand1","path":"objects/obj_stand1/obj_stand1.yy",},"order":4,},
     {"id":{"name":"spr_buttonQuit","path":"sprites/spr_buttonQuit/spr_buttonQuit.yy",},"order":13,},
+    {"id":{"name":"EvilLaugh","path":"sounds/EvilLaugh/EvilLaugh.yy",},"order":13,},
     {"id":{"name":"snd_ClownHorn","path":"sounds/snd_ClownHorn/snd_ClownHorn.yy",},"order":1,},
     {"id":{"name":"jump_up","path":"sprites/jump_up/jump_up.yy",},"order":2,},
     {"id":{"name":"spr_poster3","path":"sprites/spr_poster3/spr_poster3.yy",},"order":29,},
