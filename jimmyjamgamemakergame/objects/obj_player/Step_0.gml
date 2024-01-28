@@ -22,11 +22,24 @@ if(keyboard_check(ord("D"))&&m_velocityX < m_terminalVelX){
 	image_xscale = 1;
 	m_velocityX+=m_moveSpeed;
 	
+	if(m_canFootStep) {
+		m_randomFootstep = random_range(0, array_length(m_footStepArray)-1)
+		m_canFootStep = false;
+		audio_play_sound(m_footStepArray[m_randomFootstep],100,0)
+		alarm[1] = m_footStepCooldown;
+	}
 	m_stopping= false;
 }
 else if(keyboard_check(ord("A"))&&m_velocityX > -m_terminalVelX){
 	image_xscale = -1;
 	m_velocityX-=m_moveSpeed;
+	
+	if(m_canFootStep) {
+		m_randomFootstep = random_range(0, array_length(m_footStepArray)-1)
+		m_canFootStep = false;
+		audio_play_sound(m_footStepArray[m_randomFootstep],100,0)
+		alarm[1] = m_footStepCooldown;
+	}
 	m_stopping = false
 }
 else{

@@ -2,6 +2,7 @@
 draw_sprite(spr_tetxbox, 0, view_wport[0]/8, view_hport[0]/16);
 //draw text
 draw_set_font(fnt_textboxtext);
+draw_set_color(c_black);
 if(charCount < string_length(Dialog[page])) {	
 	charCount += 1;
 }

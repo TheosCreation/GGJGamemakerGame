@@ -1,0 +1,2 @@
+
+m_canFootStep = true;
