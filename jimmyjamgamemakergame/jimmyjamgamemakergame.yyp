@@ -13,6 +13,7 @@
     {"id":{"name":"snd_MainMenu","path":"sounds/snd_MainMenu/snd_MainMenu.yy",},"order":5,},
     {"id":{"name":"spr_Interactionzone","path":"sprites/spr_Interactionzone/spr_Interactionzone.yy",},"order":11,},
     {"id":{"name":"spr_poster1","path":"sprites/spr_poster1/spr_poster1.yy",},"order":27,},
+    {"id":{"name":"ticket","path":"sprites/ticket/ticket.yy",},"order":40,},
     {"id":{"name":"spr_tent","path":"sprites/spr_tent/spr_tent.yy",},"order":30,},
     {"id":{"name":"snd_VoiceJoke","path":"sounds/snd_VoiceJoke/snd_VoiceJoke.yy",},"order":6,},
     {"id":{"name":"spr_teethGolden","path":"sprites/spr_teethGolden/spr_teethGolden.yy",},"order":8,},

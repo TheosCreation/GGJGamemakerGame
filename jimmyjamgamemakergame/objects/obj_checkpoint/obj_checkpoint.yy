@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_checkpoint",
   "spriteId": {
-    "name": "spr_checkPoint",
-    "path": "sprites/spr_checkPoint/spr_checkPoint.yy",
+    "name": "ticket",
+    "path": "sprites/ticket/ticket.yy",
   },
   "solid": false,
   "visible": true,

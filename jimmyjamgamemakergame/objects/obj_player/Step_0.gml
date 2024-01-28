@@ -1,10 +1,11 @@
 if(!global.GamePause){
 	
-
-if (mouse_check_button(mb_left) && m_canshoot&&global.Darts) {
-	m_canshoot = false;
-	instance_create_layer(x, y+1000, "Objects", obj_Dart);
-	alarm[0] = m_shootdelay;
+if(global.Darts) {
+	if (mouse_check_button(mb_left) && m_canshoot) {
+		m_canshoot = false;
+		instance_create_layer(x, y+1000, "Objects", obj_Dart);
+		alarm[0] = m_shootdelay;
+	}
 }
 
 if(global.Baloon){

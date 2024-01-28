@@ -1,5 +1,5 @@
 m_moveSpeed = 6.4;
-m_velocityX=0;
+m_velocityX = 0;
 m_velocityY = 0;
 
 m_terminalVelX = 64;
