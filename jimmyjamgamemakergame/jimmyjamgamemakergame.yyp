@@ -10,6 +10,7 @@
     {"id":{"name":"spr_stand4","path":"sprites/spr_stand4/spr_stand4.yy",},"order":26,},
     {"id":{"name":"obj_poster1","path":"objects/obj_poster1/obj_poster1.yy",},"order":0,},
     {"id":{"name":"spr_baloon","path":"sprites/spr_baloon/spr_baloon.yy",},"order":4,},
+    {"id":{"name":"snd_MainMenu","path":"sounds/snd_MainMenu/snd_MainMenu.yy",},"order":5,},
     {"id":{"name":"spr_Interactionzone","path":"sprites/spr_Interactionzone/spr_Interactionzone.yy",},"order":11,},
     {"id":{"name":"spr_poster1","path":"sprites/spr_poster1/spr_poster1.yy",},"order":27,},
     {"id":{"name":"spr_tent","path":"sprites/spr_tent/spr_tent.yy",},"order":30,},
@@ -126,9 +127,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sound Effects","folderPath":"folders/Sounds/Sound Effects.yy","order":9,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Voices","folderPath":"folders/Sounds/Voices.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":1,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"group1","folderPath":"folders/Sprites/group1.yy","order":33,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":8,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"group1","folderPath":"folders/Sprites/group1.yy","order":33,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},

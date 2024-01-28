@@ -4,5 +4,5 @@ if(room = Game) {
 	audio_play_sound(snd_Wind,100,true)
 }
 if(room = MainMenu) {
-	audio_play_sound(snd_ClownMusic,100,true)
+	audio_play_sound(snd_MainMenu,100,true)
 }
