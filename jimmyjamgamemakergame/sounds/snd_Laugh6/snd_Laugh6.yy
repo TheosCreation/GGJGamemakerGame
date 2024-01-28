@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_IntenseMusic",
+  "name": "snd_Laugh6",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.1,
+  "volume": 0.5,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -14,10 +14,10 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_IntenseMusic.mp3",
-  "duration": 60.995937,
+  "soundFile": "snd_Laugh6.mp3",
+  "duration": 1.567347,
   "parent": {
-    "name": "Music",
-    "path": "folders/Sounds/Music.yy",
+    "name": "Awkward Laughs",
+    "path": "folders/Sounds/Sound Effects/Awkward Laughs.yy",
   },
 }

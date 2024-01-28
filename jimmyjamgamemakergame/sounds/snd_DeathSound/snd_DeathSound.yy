@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_IntenseMusic",
+  "name": "snd_DeathSound",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.1,
+  "volume": 0.8,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -14,10 +14,10 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_IntenseMusic.mp3",
-  "duration": 60.995937,
+  "soundFile": "snd_DeathSound.mp3",
+  "duration": 1.776327,
   "parent": {
-    "name": "Music",
-    "path": "folders/Sounds/Music.yy",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
 }
