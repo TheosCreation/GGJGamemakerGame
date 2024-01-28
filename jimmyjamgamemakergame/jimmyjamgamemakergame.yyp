@@ -70,6 +70,7 @@
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},"order":41,},
     {"id":{"name":"obj_stand4","path":"objects/obj_stand4/obj_stand4.yy",},"order":7,},
     {"id":{"name":"spr_buttonPlay","path":"sprites/spr_buttonPlay/spr_buttonPlay.yy",},"order":12,},
+    {"id":{"name":"Sprite48","path":"sprites/Sprite48/Sprite48.yy",},"order":9,},
     {"id":{"name":"spr_stand1","path":"sprites/spr_stand1/spr_stand1.yy",},"order":23,},
     {"id":{"name":"snd_ClownTheme3","path":"sounds/snd_ClownTheme3/snd_ClownTheme3.yy",},"order":3,},
     {"id":{"name":"snd_Laugh5","path":"sounds/snd_Laugh5/snd_Laugh5.yy",},"order":4,},
@@ -92,6 +93,7 @@
     {"id":{"name":"spr_deathBlock","path":"sprites/spr_deathBlock/spr_deathBlock.yy",},"order":15,},
     {"id":{"name":"spr_blackteeth","path":"sprites/spr_blackteeth/spr_blackteeth.yy",},"order":44,},
     {"id":{"name":"die","path":"scripts/die/die.yy",},"order":0,},
+    {"id":{"name":"crunckle_anim","path":"sprites/crunckle_anim/crunckle_anim.yy",},"order":46,},
     {"id":{"name":"snd_Footsteps10","path":"sounds/snd_Footsteps10/snd_Footsteps10.yy",},"order":9,},
     {"id":{"name":"snd_Footsteps3","path":"sounds/snd_Footsteps3/snd_Footsteps3.yy",},"order":2,},
     {"id":{"name":"laugh5","path":"sounds/laugh5/laugh5.yy",},"order":6,},
@@ -138,9 +140,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Game2","path":"rooms/Game2/Game2.yy",},},
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"Game","path":"rooms/Game/Game.yy",},},
+    {"roomId":{"name":"Game2","path":"rooms/Game2/Game2.yy",},},
     {"roomId":{"name":"Game3","path":"rooms/Game3/Game3.yy",},},
   ],
   "Folders": [
