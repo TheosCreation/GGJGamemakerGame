@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_player",
-  "spriteId": {
-    "name": "anim_idle_test",
-    "path": "sprites/anim_idle_test/anim_idle_test.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

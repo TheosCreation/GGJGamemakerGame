@@ -140,6 +140,8 @@
     {"name":"inst_68AC1837","path":"rooms/Game/Game.yy",},
     {"name":"inst_359E328E","path":"rooms/Game/Game.yy",},
     {"name":"inst_60B030D8","path":"rooms/Game/Game.yy",},
+    {"name":"inst_73A4355D","path":"rooms/Game/Game.yy",},
+    {"name":"inst_3D97FA66","path":"rooms/Game/Game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
