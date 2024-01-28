@@ -14,6 +14,7 @@
     {"id":{"name":"spr_baloon","path":"sprites/spr_baloon/spr_baloon.yy",},"order":4,},
     {"id":{"name":"snd_MainMenu","path":"sounds/snd_MainMenu/snd_MainMenu.yy",},"order":5,},
     {"id":{"name":"spr_Interactionzone","path":"sprites/spr_Interactionzone/spr_Interactionzone.yy",},"order":11,},
+    {"id":{"name":"Game3","path":"rooms/Game3/Game3.yy",},"order":3,},
     {"id":{"name":"spr_poster1","path":"sprites/spr_poster1/spr_poster1.yy",},"order":27,},
     {"id":{"name":"ticket","path":"sprites/ticket/ticket.yy",},"order":40,},
     {"id":{"name":"spr_tent","path":"sprites/spr_tent/spr_tent.yy",},"order":30,},
@@ -136,6 +137,7 @@
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"Game","path":"rooms/Game/Game.yy",},},
     {"roomId":{"name":"Game2","path":"rooms/Game2/Game2.yy",},},
+    {"roomId":{"name":"Game3","path":"rooms/Game3/Game3.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
