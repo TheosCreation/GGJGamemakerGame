@@ -1,7 +1,7 @@
 
 myTextbox = noone;
 myMiniGame = noone;
-m_ClownName = "Uncle Clown";
+m_ClownName = "Rizz Clown";
 m_ClownText[0] = "Hello! I'm it, your jolly, fun clown. Ever noticed how the paint on a clown’s face makes his smile a little... unsettling? How now, little one?";
 m_ClownText[1] = "Oh, what a wonderful, wonderful day! Full of balloon animals, confetti, and hidden shadows, wouldn't you say? Oh, the things you can find in unexpected places...";
 /*m_ClownText[2] = "Did you ever wonder why we clowns like to play tricks so much? Oh, the sheer delight of that surprise twist. It’s almost... infectious, isn’t it?";

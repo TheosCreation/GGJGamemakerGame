@@ -35,6 +35,7 @@ if(place_meeting(x,y,obj_player)){
 			myTextbox = noone;
 			m_gameStage ++;
 			if(m_gameStage == 1){
+				audio_play_sound(EvilLaugh,100,false);
 				myMiniGame = instance_create_layer(x+640,y,"Objects",obj_LaughterHandler);
 				myMiniGame.m_parent = id;
 			}

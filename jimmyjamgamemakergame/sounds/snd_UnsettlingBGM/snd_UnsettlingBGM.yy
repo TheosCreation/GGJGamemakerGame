@@ -4,7 +4,7 @@
   "name": "snd_UnsettlingBGM",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.54,
+  "volume": 0.27,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,

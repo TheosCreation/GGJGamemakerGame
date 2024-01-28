@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_plushy",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_plushy",
+    "path": "sprites/spr_plushy/spr_plushy.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

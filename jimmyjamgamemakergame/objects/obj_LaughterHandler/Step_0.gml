@@ -29,6 +29,7 @@ if(m_GameStart){
 		}
 		else{
 			m_gold = false;
+			audio_play_sound(snd_ClownHorn,0,false);
 			
 		}
 	

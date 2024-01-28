@@ -12,8 +12,8 @@ m_goldCount = 0;
 
 m_xOffset = -320;
 
-
-m_TeethList[3] = spr_teethGolden;
+m_teethGap = 64; 
+m_TeethList[5] = spr_teethGolden;
 
 
 // when game is playing it goes through each line in this array using an alarm

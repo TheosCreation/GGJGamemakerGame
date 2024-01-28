@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_ClownMusic",
+  "name": "EvilLaugh",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.49,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -14,10 +14,10 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_ClownMusic.mp3",
-  "duration": 127.86944,
+  "soundFile": "EvilLaugh.mp3",
+  "duration": 5.22449,
   "parent": {
-    "name": "Music",
-    "path": "folders/Sounds/Music.yy",
+    "name": "Voices",
+    "path": "folders/Sounds/Voices.yy",
   },
 }

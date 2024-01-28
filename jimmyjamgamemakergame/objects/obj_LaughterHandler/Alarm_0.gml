@@ -1,5 +1,8 @@
 m_xOffset+=16;
-if(m_xOffset%64==0){
+
+
+
+if(m_xOffset%m_teethGap==0){
 	if(m_CurrentTooth== m_MouthSize-1){
 		if(m_goldCount>=m_goldTeeth){
 		//win

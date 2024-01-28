@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_rizzClown",
   "spriteId": {
-    "name": "spr_uncleClown",
-    "path": "sprites/spr_uncleClown/spr_uncleClown.yy",
+    "name": "spr_rizzClown",
+    "path": "sprites/spr_rizzClown/spr_rizzClown.yy",
   },
   "solid": false,
   "visible": true,
