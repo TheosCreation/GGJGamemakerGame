@@ -10,6 +10,12 @@ if(m_GameStart&&!m_started){
 	m_CurrentTooth = 0;
 	alarm[0] = m_LineSpeed;
 }
+if(keyboard_check_pressed(vk_left)){
+	m_xOffset -= 16;
+}
+if(keyboard_check_pressed(vk_right)){
+	m_xOffset += 16;
+}
 show_debug_message(m_goldCount);
 if(m_GameStart){
 	if(keyboard_check_pressed(vk_space)&&m_CurrentTooth<=m_MouthSize){

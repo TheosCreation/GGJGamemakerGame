@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_deathBlock",
   "spriteId": {
-    "name": "spr_deathBlock",
-    "path": "sprites/spr_deathBlock/spr_deathBlock.yy",
+    "name": "spr_ballpit",
+    "path": "sprites/spr_ballpit/spr_ballpit.yy",
   },
   "solid": false,
   "visible": true,
