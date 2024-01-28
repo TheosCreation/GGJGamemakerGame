@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "DeathSound",
+  "name": "snd_DeathSound",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.8,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "DeathSound.mp3",
-  "duration": 2.612245,
+  "soundFile": "snd_DeathSound.mp3",
+  "duration": 1.776327,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

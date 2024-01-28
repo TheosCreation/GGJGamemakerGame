@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "EvilLaugh",
+  "name": "snd_EvilLaugh",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.8,
@@ -14,7 +14,7 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "EvilLaugh.mp3",
+  "soundFile": "snd_EvilLaugh.mp3",
   "duration": 5.22449,
   "parent": {
     "name": "Sounds",
