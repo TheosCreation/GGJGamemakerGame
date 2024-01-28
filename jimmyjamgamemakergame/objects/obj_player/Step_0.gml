@@ -10,10 +10,10 @@ if(global.Darts) {
 
 if(global.Baloon){
 	if(keyboard_check(vk_space)){
-		g_gravity = 2.2;
+		g_gravity =4;
 	}
 	else{
-		g_gravity = 9.81;
+		g_gravity = 12;
 	}
 	
 	

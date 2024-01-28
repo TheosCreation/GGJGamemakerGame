@@ -15,7 +15,7 @@ m_groundCheck = true;
 m_jumpSpeed = 128;
 m_canshoot = true;
 m_shootdelay = 30;
-g_gravity = 9.81;
+g_gravity = 12;
 
 c_width = 240;
 c_height = 1280;
