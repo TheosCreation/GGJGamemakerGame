@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_Crate",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_ballonCrate",
+    "path": "sprites/spr_ballonCrate/spr_ballonCrate.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
