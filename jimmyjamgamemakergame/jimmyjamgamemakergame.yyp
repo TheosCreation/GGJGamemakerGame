@@ -65,6 +65,7 @@
     {"id":{"name":"spr_stand1","path":"sprites/spr_stand1/spr_stand1.yy",},"order":23,},
     {"id":{"name":"snd_ClownTheme3","path":"sounds/snd_ClownTheme3/snd_ClownTheme3.yy",},"order":3,},
     {"id":{"name":"snd_Laugh5","path":"sounds/snd_Laugh5/snd_Laugh5.yy",},"order":4,},
+    {"id":{"name":"DeathSound","path":"sounds/DeathSound/DeathSound.yy",},"order":12,},
     {"id":{"name":"snd_ClownTheme1","path":"sounds/snd_ClownTheme1/snd_ClownTheme1.yy",},"order":2,},
     {"id":{"name":"obj_quitbutton","path":"objects/obj_quitbutton/obj_quitbutton.yy",},"order":1,},
     {"id":{"name":"snd_Footsteps6","path":"sounds/snd_Footsteps6/snd_Footsteps6.yy",},"order":5,},
