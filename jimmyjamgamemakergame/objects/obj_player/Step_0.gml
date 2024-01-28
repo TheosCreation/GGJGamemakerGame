@@ -23,7 +23,7 @@ if(keyboard_check(ord("D"))&&m_velocityX < m_terminalVelX){
 	image_xscale = 1;
 	m_velocityX+=m_moveSpeed;
 	
-	if(m_canFootStep) {
+	if(m_canFootStep && m_groundCheck) {
 		m_randomFootstep = random_range(0, array_length(m_footStepArray)-1)
 		m_canFootStep = false;
 		audio_play_sound(m_footStepArray[m_randomFootstep],100,0)
@@ -35,7 +35,7 @@ else if(keyboard_check(ord("A"))&&m_velocityX > -m_terminalVelX){
 	image_xscale = -1;
 	m_velocityX-=m_moveSpeed;
 	
-	if(m_canFootStep) {
+	if(m_canFootStep && m_groundCheck) {
 		m_randomFootstep = random_range(0, array_length(m_footStepArray)-1)
 		m_canFootStep = false;
 		audio_play_sound(m_footStepArray[m_randomFootstep],100,0)
@@ -66,10 +66,24 @@ else if(place_meeting(x+m_velocityX,y-160,obj_Crate)
 	m_velocityX = 0;
 }
 else if(m_stopping&&(-10< m_velocityX && m_velocityX<10)){
+	
 	m_velocityX = 0;
 	//checks if velocity is in range -10 to 10 to fully 0 it
 	
 }
+
+if(m_velocityX = 0 && m_groundCheck) {
+	sprite_index = anim_idle_test;
+}
+else if(m_velocityY < 1 && !m_groundCheck) {
+	sprite_index = fall_down;
+}
+else if(m_velocityX != 0  && m_groundCheck){
+	sprite_index = walkies_anim;
+}
+//if(m_groundCheck) {
+//	sprite_index = fall_down;
+//}
 if(place_meeting(x,y,obj_MovingPlataform)){
 		speed = instance_nearest(x,y,obj_MovingPlataform).speed;
 	}
@@ -84,7 +98,9 @@ else{
 	}
 
 if(keyboard_check_pressed(vk_space)&&m_groundCheck){
+	sprite_index = jump_up;
 	m_velocityY += m_jumpSpeed;
+	
 	//input check
  
 } 
