@@ -8,8 +8,8 @@ if(m_win){
 if(place_meeting(x,y,obj_player)){
 	if(keyboard_check_pressed(ord("E"))) {
 		if(sound_playing == false){
-			audio_stop_sound(snd_ClownTheme2)
-			audio_play_sound(snd_ClownTheme2, 100, true)
+			audio_stop_sound(snd_ClownTheme4)
+			audio_play_sound(snd_ClownTheme4, 100, true)
 			sound_playing = true
 			alarm[0] = 1000;
 		}
